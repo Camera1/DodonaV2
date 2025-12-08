@@ -15,6 +15,8 @@ public class FixDodona : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collider){
         Debug.Log("Worked");
+        
         SceneManager.LoadScene("Circuit");
+
     }
 }
